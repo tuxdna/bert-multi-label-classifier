@@ -1,6 +1,6 @@
 Compilation started at Fri Aug  2 01:24:59
 
-python3 train.py data2
+python3 train.py data
 Using TensorFlow backend.
 
 Training model for toxic
@@ -94,7 +94,7 @@ Epoch 19/20
 111699/111699 [==============================] - 5s 43us/step - loss: 0.1375 - binary_accuracy: 0.9547 - rmse: 0.1775 - fp_rate: 0.0119 - val_loss: 0.1392 - val_binary_accuracy: 0.9538 - val_rmse: 0.1793 - val_fp_rate: 0.0122
 Epoch 20/20
 111699/111699 [==============================] - 4s 39us/step - loss: 0.1369 - binary_accuracy: 0.9545 - rmse: 0.1773 - fp_rate: 0.0120 - val_loss: 0.1391 - val_binary_accuracy: 0.9538 - val_rmse: 0.1799 - val_fp_rate: 0.0133
-Write plots to: data2/metrics/toxic-metrics.png
+Write plots to: data/metrics/toxic-metrics.png
 
 Training model for severe_toxic
 Train on 111699 samples, validate on 47872 samples
@@ -138,7 +138,7 @@ Epoch 19/20
 111699/111699 [==============================] - 5s 44us/step - loss: 0.0458 - binary_accuracy: 0.9903 - rmse: 0.0704 - fp_rate: 0.0014 - val_loss: 0.0451 - val_binary_accuracy: 0.9904 - val_rmse: 0.0696 - val_fp_rate: 0.0013
 Epoch 20/20
 111699/111699 [==============================] - 5s 44us/step - loss: 0.0455 - binary_accuracy: 0.9906 - rmse: 0.0695 - fp_rate: 0.0015 - val_loss: 0.0450 - val_binary_accuracy: 0.9904 - val_rmse: 0.0693 - val_fp_rate: 0.0012
-Write plots to: data2/metrics/severe_toxic-metrics.png
+Write plots to: data/metrics/severe_toxic-metrics.png
 
 Training model for obscene
 Train on 111699 samples, validate on 47872 samples
@@ -182,7 +182,7 @@ Epoch 19/20
 111699/111699 [==============================] - 5s 43us/step - loss: 0.0942 - binary_accuracy: 0.9724 - rmse: 0.1349 - fp_rate: 0.0063 - val_loss: 0.0933 - val_binary_accuracy: 0.9733 - val_rmse: 0.1347 - val_fp_rate: 0.0065
 Epoch 20/20
 111699/111699 [==============================] - 5s 45us/step - loss: 0.0941 - binary_accuracy: 0.9724 - rmse: 0.1347 - fp_rate: 0.0062 - val_loss: 0.0930 - val_binary_accuracy: 0.9734 - val_rmse: 0.1345 - val_fp_rate: 0.0070
-Write plots to: data2/metrics/obscene-metrics.png
+Write plots to: data/metrics/obscene-metrics.png
 
 Training model for threat
 Train on 111699 samples, validate on 47872 samples
@@ -226,7 +226,7 @@ Epoch 19/20
 111699/111699 [==============================] - 5s 42us/step - loss: 0.0324 - binary_accuracy: 0.9970 - rmse: 0.0312 - fp_rate: 0.0000e+00 - val_loss: 0.0317 - val_binary_accuracy: 0.9970 - val_rmse: 0.0304 - val_fp_rate: 0.0000e+00
 Epoch 20/20
 111699/111699 [==============================] - 4s 40us/step - loss: 0.0322 - binary_accuracy: 0.9970 - rmse: 0.0309 - fp_rate: 0.0000e+00 - val_loss: 0.0316 - val_binary_accuracy: 0.9970 - val_rmse: 0.0303 - val_fp_rate: 0.0000e+00
-Write plots to: data2/metrics/threat-metrics.png
+Write plots to: data/metrics/threat-metrics.png
 
 Training model for insult
 Train on 111699 samples, validate on 47872 samples
@@ -270,7 +270,7 @@ Epoch 19/20
 111699/111699 [==============================] - 5s 45us/step - loss: 0.0992 - binary_accuracy: 0.9697 - rmse: 0.1422 - fp_rate: 0.0074 - val_loss: 0.0999 - val_binary_accuracy: 0.9686 - val_rmse: 0.1444 - val_fp_rate: 0.0083
 Epoch 20/20
 111699/111699 [==============================] - 5s 41us/step - loss: 0.0986 - binary_accuracy: 0.9698 - rmse: 0.1416 - fp_rate: 0.0075 - val_loss: 0.0997 - val_binary_accuracy: 0.9687 - val_rmse: 0.1441 - val_fp_rate: 0.0078
-Write plots to: data2/metrics/insult-metrics.png
+Write plots to: data/metrics/insult-metrics.png
 
 Training model for identity_hate
 Train on 111699 samples, validate on 47872 samples
@@ -314,7 +314,7 @@ Epoch 19/20
 111699/111699 [==============================] - 5s 41us/step - loss: 0.0505 - binary_accuracy: 0.9912 - rmse: 0.0685 - fp_rate: 0.0000e+00 - val_loss: 0.0499 - val_binary_accuracy: 0.9912 - val_rmse: 0.0680 - val_fp_rate: 0.0000e+00
 Epoch 20/20
 111699/111699 [==============================] - 5s 43us/step - loss: 0.0502 - binary_accuracy: 0.9912 - rmse: 0.0687 - fp_rate: 0.0000e+00 - val_loss: 0.0496 - val_binary_accuracy: 0.9912 - val_rmse: 0.0682 - val_fp_rate: 0.0000e+00
-Write plots to: data2/metrics/identity_hate-metrics.png
+Write plots to: data/metrics/identity_hate-metrics.png
 Training complete
 
 Compilation finished at Fri Aug  2 01:34:50
